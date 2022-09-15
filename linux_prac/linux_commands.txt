@@ -1,0 +1,54 @@
+pwd
+cd
+mv
+cp
+sudo su -
+useradd
+ls -lrt
+vi txt_file
+touch file
+echo
+cat
+rm filenaame
+rmdir
+rm -rf 
+chown -R user:user foldername
+chmod 
+mv filename newname (rename)
+mv filename path
+cp filename path
+cp *(all file) path
+cp /opt/server/* /opt/new_server/
+cp -r * path (-r includes sub folders)
+cat /etc/redhat-release (version of linux)
+yum install
+yum update
+systemctl start service name
+systemctl status service name
+systemctl stop service name
+netstat -ntlp (tcp ports)
+clear
+netstat - nlp (all ports)
+free -m (free space)
+top (load average)
+df -h (disk space details)
+du -sh* (disk space of directories or file)
+du -sh filename
+wget link (download)
+ifconfig (ipaddr)
+ps -ef | grep httpd (to find process id )
+kill -9 6064 (kill process id)
+logs
+history
+tail -f access_logs
+tail -10 access_logs
+
+grep -i 'word' filename
+grep "^Abc" filename (start with abc)
+grep "abc$" filename  end with abc
+grep -c abc file (how mny words are there in abc)
+grep -n abc file (with line  numbers)
+
+grep - r abc file (search in all folders recursively)
+
+find / -type -f -name filename (search file) 
